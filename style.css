@@ -1,0 +1,93 @@
+
+body {
+  background-image: url(junglebg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: 'Maven Pro', sans-serif;;
+  font-size: 80px;
+  text-align:center;
+  margin: 150px auto 20px auto;
+    text-shadow: 4px 3px 0 rgb(12, 244, 195);
+
+}
+
+.descrip {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 50px;
+  text-align:center;
+  color: rgb(0, 88, 221);
+  text-shadow: 2px 3px 0 black;
+}
+
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  text-align:center;
+}
+
+
+#btn {
+  height: 100px;
+  width: 300px;
+  /*border-radius: 15px;*/
+	font-family: 'Maven Pro', sans-serif;;
+	font-size: 50px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+  margin: auto;
+  display: block;
+  background-color: rgb(41, 101, 69);
+  color: white;
+  text-transform:
+  border: 2px solid #dadada;
+    border-radius: 7px;
+    text-shadow:
+   -0.8px -0.8px 0 rgba(0, 0, 0, 0.5),
+   0.8px -0.8px 0 rgba(0, 0, 0, 0.5),
+   -0.8px 0.8px 0 rgba(0, 0, 0, 0.5),
+   0.8px 0.8px 0 rgba(0, 0, 0, 0.5);
+}
+
+#btn2 {
+  height: 70px;
+  width: 300px;
+  /*border-radius: 15px;*/
+	font-family: 'Maven Pro', sans-serif;;
+	font-size: 25px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+  margin: 50px 0px 500px 10px;
+  display: inline-block;
+ text-align: center;
+  background-color: rgb(41, 101, 69);
+  color: white;
+  text-transform:
+  border: 2px solid #dadada;
+    border-radius: 7px;
+    text-shadow:
+   -0.8px -0.8px 0 rgba(0, 0, 0, 0.5),
+   0.8px -0.8px 0 rgba(0, 0, 0, 0.5),
+   -0.8px 0.8px 0 rgba(0, 0, 0, 0.5),
+   0.8px 0.8px 0 rgba(0, 0, 0, 0.5);
+}
+
+#btn:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 100px #9ecaed;
+}
+
+body {
+    position: relative
+}
